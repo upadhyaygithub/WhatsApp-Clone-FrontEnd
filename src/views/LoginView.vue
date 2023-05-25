@@ -5,7 +5,7 @@
 
         <div class="max-w-xl mx-auto">
             <div class="mt-10 flex items-center w-full">
-                <img width="40" src="whatsapp-logo.png" alt="">
+                <img width="40" src="../assets/whatsapp-logo.png" alt="">
                 <div class="font-semibold text-gray-100 ml-6">WHATSAPP WEB</div>
             </div>
             <div class="bg-white z-10 p-24 m-6 mt-10">
