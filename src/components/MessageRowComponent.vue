@@ -2,13 +2,13 @@
   <div :class="isActive ? 'bg-gray-200' : ''">
     <div class="flex w-full px-4 py-3 intems-center cursor-pointer">
       
-      <img class="rounded-full mr-4 w-12 " :src="chat.user.picture || ''"> 
+      <img class="rounded-full mr-4 w-12 " :src="chat.user?.picture || ''">  <!---->
       
 
      <div class="w-full">
 
       <div class="flex justify-between items-center">
-        <div class="text-[15px] text-gray-600">
+         <div class="text-[15px] text-gray-600"> 
           {{ chat.user.firstName }}
         </div>
         <div class="text-[12px] text-gray-600">
