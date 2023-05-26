@@ -197,6 +197,7 @@ export const useUserStore = defineStore('user', {
     
     
     logout() {
+      localStorage.removeItem('user');
       this.sub = ''
       this.email = ''
       this.picture = ''
@@ -208,6 +209,10 @@ export const useUserStore = defineStore('user', {
       this.removeUsersFromFindFriends = []
       this.showFindFriends = false
       this.currentChat = false
+      localStorage.clear();
+      
+      this.persist = false;
+      
     }
   },
   persist: true

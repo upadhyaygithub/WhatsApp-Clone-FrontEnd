@@ -11,5 +11,10 @@ const router = useRouter()
 
 onMounted(() => {
   if(!userStore.sub) router.push('/login')
+  else {
+    router.push("/")
+  }
+
+  
 })
 </script>

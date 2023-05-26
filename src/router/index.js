@@ -5,15 +5,20 @@ import LoginView from '@/views/LoginView.vue'
 
 const routes = [
     {
-    path: '/',
-    component: HomeView,
- 
-},
-{
-    path: '/login',
-    component: LoginView,
+        path: '/',
+        redirect: '/home'
+    },
+    {
+        path: '/login',
+        component: LoginView,
 
-}
+    },
+    {
+        path: '/home',
+        component: HomeView,
+
+    },
+
 ];
 
 const router = createRouter({
