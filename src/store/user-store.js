@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 import { db } from '@/firebase-init'
 import { setDoc, getDoc, doc, getDocs, collection,  updateDoc, arrayUnion,  onSnapshot, query } from 'firebase/firestore';
 
-axios.defaults.baseURL = 'https://gifted-fish-khakis.cyclic.app'
+axios.defaults.baseURL = 'https://gifted-fish-khakis.cyclic.app/'
 
 export const useUserStore = defineStore('user', {
   state: () => ({
