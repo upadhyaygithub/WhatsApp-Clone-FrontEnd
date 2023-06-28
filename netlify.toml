@@ -1,6 +1,6 @@
 [[redirect]]
-path: = "/*"
-redirect = "/login"
+from = "/login"
+to = "/login"
 status = 200
 
 
