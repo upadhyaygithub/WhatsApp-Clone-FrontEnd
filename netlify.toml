@@ -1,5 +1,5 @@
 [[redirect]]
-path: = "/login"
+path: = "/*"
 redirect = "/login"
 status = 200
 
