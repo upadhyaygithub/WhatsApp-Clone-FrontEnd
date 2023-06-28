@@ -1,5 +1,5 @@
 [[redirect]]
-path: = "/*"
+path: = "/login"
 redirect = "/login"
 component: LoginView
 status = 200
